@@ -1,0 +1,16 @@
+.star,
+.about,
+.work,
+.contact,
+.footer {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.star.visible,
+.about.visible,
+.work.visible,
+.contact.visible,
+.footer.visible {
+  opacity: 1;
+}
